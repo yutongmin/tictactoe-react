@@ -1,6 +1,7 @@
 # tictactoe-react
 // react教程的井字棋完整代码----
-```function Square(props) {
+```
+function Square(props) {
   return (
     <button className="square" onClick={props.onClick}>
       {props.value}
